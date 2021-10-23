@@ -59,11 +59,11 @@ shinyUI(fluidPage(
     h6()
   ),
   fluidRow(
-    column(8, offset = 1, tags$img(id="logo", src="logo-cbev.png", height=80)),
+    column(8, offset = 1, tags$img(id="logo", src="logo-wacc-io.png", height=80)),
     column(2, id="contact",
            tags$small(tags$b("Contact:")),tags$br(),
-           tags$small("Andreas Krostewitz"),tags$br(),
-           tags$small("Sascha Braungart"))
+           tags$small("cbev@wacc.io"),tags$br(),
+           tags$small(""))
   ),
   fluidRow(
     column(10, offset = 1, id = "start", h1("I. Introduction to Customer-based Enterprise Valuation (CBEV)"), "[Introduction goes here]")
@@ -213,8 +213,7 @@ shinyUI(fluidPage(
   ),
   fluidRow(
     column(10, offset = 1, id = "footer",
-           h6("© 2020. All rights reserved. Digital Asset of PwC Germany - Valuation, Modelling & Analytics."),
-           h6("PwC refers to the PwC network and/or one or more of its member firms, each of which is a separate legal entity."),
+           h6("© 2021. All rights reserved. Digital Asset of wacc.io"),
            tags$small("TERMS OF SERVICE: This data is made available to provide immediate access for the convenience of interested persons and as a benefit to the global valuation community. Whilst we believe this data to be reliable, human or mechanical error remains a possibility. We give no warranty, expressed or implied, as to the accuracy, reliability, or completeness of this data. THE ENTIRE RISK OF USE OF THIS DATA SHALL BE WITH THE USER. By accessing this site you agree to this Terms of Service.")
            )
   )
